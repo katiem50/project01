@@ -1,0 +1,254 @@
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    color: black;
+}
+
+#brand {
+    color: #00394d;
+    height: 60px;
+    width: 80px;
+    float: left;
+    margin: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+nav ul {
+
+    float: right;
+    width: auto;
+}
+
+nav  {
+  position: relative;
+    top: 0;
+    left: 0;
+    background: #b3ffb3;
+    border-bottom: 2px solid black;
+    height: 100px;
+    width: 100%;
+
+}
+nav li {
+    float: left;
+    width: auto;
+
+}
+nav li a {
+
+    padding: 25px 15px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+h2{
+  color: #99e6ff;
+  font-size:45px;
+  font-family: 'Lobster', cursive;
+  margin-left: 50px;
+  text-align: center;
+
+
+}
+
+#president1 {
+
+    color: black;
+    text-align: left;
+    height: 150px;
+
+
+
+}
+
+#president1 img {
+    width: 200px;
+    border-radius: 50%;
+
+
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+
+}
+
+.column img {
+    width: 90%;
+    max-width: 90%;
+    border-radius: 50%;
+
+
+}
+
+.one:hover{
+   width: 600px;
+   color: #99e6ff;
+}
+.two:hover{
+   width: 600px;
+    color: #99e6ff;
+}
+.three:hover{
+   width: 600px;
+   color: #99e6ff;
+}
+.four:hover{
+   width: 600px;
+  color: #99e6ff;
+
+}
+
+.one{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+.two{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+.three{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+.four{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+#president2 {
+
+    color: black;
+    text-align: left;
+    height: 150px;
+
+
+}
+
+#president2 img {
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.column2 {
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+.column2 img {
+    width: 90%;
+    max-width: 90%;
+    border-radius: 50%;
+}
+
+#president3 {
+
+    color: black;
+    text-align: left;
+    height: 150px;
+
+
+}
+
+#president3 img {
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.column3 {
+    float: right;
+    width: 30%;
+    padding: 15px;
+}
+
+.column3 img {
+    width: 90%;
+    max-width: 90%;
+    border-radius: 50%;
+}
+
+#president4 {
+
+    color: black;
+    text-align: left;
+    height: 150px;
+
+
+}
+
+#president4 img {
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.column4 {
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+.column4 img {
+    width: 90%;
+    max-width: 90%;
+    border-radius: 50%;
+}
+
+.wrapper{
+  background-color:  #e6f2ff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project {
+ width: 200px;
+  height: 200px;
+  background-color: coral;
+  animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+ outline: 1px solid transparent;
+
+}
+
+@keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+    background:coral;
+    transform:rotate(0deg);
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+    background:darksalmon;
+    transform:rotate(45deg);
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+    background:indianred;
+    transform:rotate(90deg);
+  }
+  75%  {
+    border-radius:50% 50% 50% 0;
+    background:lightcoral;
+    transform:rotate(135deg);
+  }
+  100% {
+    border-radius:50%;
+    background:darksalmon;
+    transform:rotate(180deg);
+  }
+}
+
+.questions{
+  text-align: center;
+  color:  #800000;
+  font-family: 'Alegreya Sans', sans-serif;
+}
